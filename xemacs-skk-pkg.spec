@@ -13,7 +13,7 @@ Version: 	1.15
 Release:	1
 
 ### Preamble
-Copyright:	GPL
+License:	GPL
 Group:    	Applications/Editors/Emacs
 Group(pl):	Aplikacje/Edytory/Emacs
 URL:      	http://www.xemacs.org
