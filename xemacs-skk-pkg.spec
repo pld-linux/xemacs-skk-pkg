@@ -1,7 +1,7 @@
 Summary:	Japanese Language Input Method
 Summary(pl):	Metoda wprowadzania znaków japoñskich
 Name:		xemacs-skk-pkg
-%define 	srcname	skk
+%define		srcname	skk
 Version:	1.19
 Release:	1
 License:	GPL
@@ -20,8 +20,10 @@ Requires:	xemacs-base-pkg
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
+Japanese Language Input Method.
 
-%description -l pl 
+%description -l pl
+Metoda wprowadzania znaków japoñskich.
 
 %prep
 %setup -q -c
@@ -31,10 +33,10 @@ rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_datadir}/xemacs-packages,%{_infodir}}
 
 cp -a * $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
-mv -f  $RPM_BUILD_ROOT%{_datadir}/xemacs-packages/info/*.info* $RPM_BUILD_ROOT%{_infodir}
+mv -f $RPM_BUILD_ROOT%{_datadir}/xemacs-packages/info/*.info* $RPM_BUILD_ROOT%{_infodir}
 rm -fr $RPM_BUILD_ROOT%{_datadir}/xemacs-packages/info
 
-gzip -9nf lisp/skk/ChangeLog 
+gzip -9nf lisp/skk/ChangeLog
 
 %clean
 rm -fr $RPM_BUILD_ROOT
@@ -47,7 +49,7 @@ rm -fr $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc lisp/skk/ChangeLog.gz 
+%doc lisp/skk/ChangeLog.gz
 %{_datadir}/xemacs-packages%{_sysconfdir}/*
 %{_infodir}/*
 %dir %{_datadir}/xemacs-packages/lisp/*
