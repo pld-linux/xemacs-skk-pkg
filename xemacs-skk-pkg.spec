@@ -2,7 +2,7 @@ Summary:	Japanese Language Input Method
 Summary(pl):	Japanese Language Input Method
 Name:		xemacs-skk-pkg
 %define 	srcname	skk
-Version:	1.18
+Version:	1.19
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
