@@ -3,7 +3,7 @@ Summary(pl):	Metoda wprowadzania znaków japoñskich
 Name:		xemacs-skk-pkg
 %define		srcname	skk
 Version:	1.23
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Editors/Emacs
 Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
