@@ -1,11 +1,12 @@
 Summary:	Japanese Language Input Method
-Summary(pl):	Japanese Language Input Method
+Summary(pl):	Metoda wprowadzania znaków japoñskich
 Name:		xemacs-skk-pkg
 %define 	srcname	skk
 Version:	1.19
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
+Group(de):	Applikationen/Editors/Emacs
 Group(pl):	Aplikacje/Edytory/Emacs
 Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
 URL:		http://www.xemacs.org/
@@ -33,8 +34,7 @@ cp -a * $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 mv -f  $RPM_BUILD_ROOT%{_datadir}/xemacs-packages/info/*.info* $RPM_BUILD_ROOT%{_infodir}
 rm -fr $RPM_BUILD_ROOT%{_datadir}/xemacs-packages/info
 
-gzip -9nf $RPM_BUILD_ROOT%{_infodir}/*.info* \
-	lisp/skk/ChangeLog 
+gzip -9nf lisp/skk/ChangeLog 
 
 %clean
 rm -fr $RPM_BUILD_ROOT
