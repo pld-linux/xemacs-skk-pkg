@@ -1,5 +1,5 @@
 Summary:	Japanese Language Input Method
-Summary(pl.UTF-8):   Metoda wprowadzania znaków japońskich
+Summary(pl.UTF-8):	Metoda wprowadzania znaków japońskich
 Name:		xemacs-skk-pkg
 %define		srcname	skk
 Version:	1.23
