@@ -1,5 +1,5 @@
 Summary:	Japanese Language Input Method
-Summary(pl):	Metoda wprowadzania znaków japoñskich
+Summary(pl.UTF-8):   Metoda wprowadzania znakÃ³w japoÅ„skich
 Name:		xemacs-skk-pkg
 %define		srcname	skk
 Version:	1.23
@@ -21,8 +21,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Japanese Language Input Method.
 
-%description -l pl
-Metoda wprowadzania znaków japoñskich.
+%description -l pl.UTF-8
+Metoda wprowadzania znakÃ³w japoÅ„skich.
 
 %prep
 %setup -q -c
