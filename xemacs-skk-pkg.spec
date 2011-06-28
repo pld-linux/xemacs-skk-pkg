@@ -2,12 +2,12 @@ Summary:	Japanese Language Input Method
 Summary(pl.UTF-8):	Metoda wprowadzania znaków japońskich
 Name:		xemacs-skk-pkg
 %define		srcname	skk
-Version:	1.23
-Release:	2
+Version:	1.24
+Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
 Source0:	http://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
-# Source0-md5:	dc35f20896a56c8cf2e7ba16b15e453b
+# Source0-md5:	8735a78a15e7a9d00ec59784a16418ab
 URL:		http://www.xemacs.org/
 BuildArch:	noarch
 Conflicts:	xemacs-sumo
